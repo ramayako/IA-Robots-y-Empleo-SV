@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IA, Robots y Empleo SV</title>
+    <link>https://ramayako.github.io/IA-Robots-y-Empleo-SV/</link>
+    <description>Noticias breves sobre inteligencia artificial, robótica y empleo en El Salvador.</description>
+    <language>es-SV</language>
+    <atom:link href="https://ramayako.github.io/IA-Robots-y-Empleo-SV/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Tue, 24 Nov 2026 14:54:00 GMT</lastBuildDate>
+    <item>
+      <title>24 de noviembre de 2026 — IA y robótica también necesitan talento humano</title>
+      <link>https://ramayako.github.io/IA-Robots-y-Empleo-SV/?edicion=2026-11-24</link>
+      <guid isPermaLink="false">ia-robots-empleo-sv-2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 14:54:00 GMT</pubDate>
+      <description>El informe de demanda laboral del INCAF incluye perfiles técnicos de automatización y robótica, análisis de datos e inteligencia artificial, ciberseguridad y mantenimiento electrónico.</description>
+    </item>
+  </channel>
+</rss>
