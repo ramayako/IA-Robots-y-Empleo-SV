@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#102c2a">
+<meta name="description" content="Noticias visuales sobre inteligencia artificial, robótica y empleo en El Salvador.">
+<meta property="og:title" content="IA, Robots y Empleo SV">
+<meta property="og:description" content="Cómo la tecnología está cambiando el trabajo en El Salvador.">
+<meta property="og:type" content="website">
+<title>IA, Robots y Empleo SV</title>
+<link rel="alternate" type="application/rss+xml" title="IA, Robots y Empleo SV" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#122b29;--paper:#f5f4ec;--white:#fffefa;--green:#126b59;--lime:#c9ed72;--orange:#ed825a;--muted:#60716a;--line:#d9ded1;--lav:#e7e7f5}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.45 "DM Sans",Arial,sans-serif}
+a{color:inherit}
+.wrap{width:min(1080px,100% - 32px);margin:0 auto}
+.top{padding:12px 0;border-bottom:1px solid var(--line);font-size:.78rem;color:var(--muted);display:flex;justify-content:space-between;gap:12px}
+.brand{padding:24px 0 18px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand-lock{display:flex;gap:12px;align-items:center}
+.mark{width:48px;height:48px;border-radius:15px;background:var(--lime);display:grid;place-items:center;font-size:25px}
+h1,h2,h3,p{margin-top:0}
+h1{font:700 clamp(1.75rem,5vw,3.2rem)/.98 "Space Grotesk",sans-serif;letter-spacing:-.06em;margin:0}
+.tagline{margin:6px 0 0;color:var(--muted);font-weight:600;font-size:.95rem}
+.pill{border-radius:999px;padding:8px 12px;background:var(--ink);color:white;font-weight:700;font-size:.8rem;white-space:nowrap}
+.edition{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:11px 0;display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:.84rem}
+main{padding:22px 0 40px}
+.loading,.error{padding:40px 20px;text-align:center;color:var(--muted)}
+.hero{display:grid;grid-template-columns:1.05fr .95fr;background:var(--green);color:white;border-radius:24px;overflow:hidden;min-height:330px}
+.hero-copy{padding:clamp(22px,5vw,48px);display:flex;flex-direction:column;justify-content:center}
+.eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--lime)}
+.hero h2{font:700 clamp(2rem,5.5vw,4rem)/.98 "Space Grotesk",sans-serif;letter-spacing:-.05em;margin:12px 0}
+.hero-copy p{max-width:500px;margin:0 0 18px;color:#e4f0e9;font-size:1.05rem}
+.why{padding:12px 14px;border-left:3px solid var(--lime);background:#ffffff12;font-size:.9rem}
+.source-link{display:inline-flex;align-items:center;gap:6px;margin-top:16px;font-weight:800;text-decoration:none}
+.source-link:hover{text-decoration:underline}
+.hero-art{position:relative;display:grid;place-items:center;min-height:270px;background:radial-gradient(circle at 50% 40%,#a5d89a 0 7%,transparent 7.5%),linear-gradient(145deg,#b8de79,#58b292);overflow:hidden}
+.orbit{position:absolute;border:2px solid #174e3e66;border-radius:50%;width:74%;aspect-ratio:1;transform:rotate(-24deg) scaleY(.7)}
+.orbit.two{width:95%;transform:rotate(40deg) scaleY(.42)}
+.robot{position:relative;width:144px;height:154px;display:grid;place-items:center;font-size:96px;filter:drop-shadow(0 15px 10px #174e3e30)}
+.stat{position:absolute;padding:12px 16px;border-radius:14px;background:var(--white);color:var(--ink);box-shadow:0 12px 24px #174e3e28}
+.stat strong{display:block;font:700 1.5rem/1 "Space Grotesk",sans-serif}
+.stat small{font-size:.72rem;color:var(--muted)}
+.stat.one{left:6%;top:12%}.stat.two{right:5%;bottom:12%}
+.nav{display:flex;overflow:auto;gap:8px;padding:18px 0 6px;scrollbar-width:none}
+.nav a{white-space:nowrap;text-decoration:none;background:var(--white);border:1px solid var(--line);border-radius:999px;padding:9px 13px;font-size:.82rem;font-weight:800}
+.nav a:hover{border-color:var(--green);color:var(--green)}
+.section{margin-top:24px}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:12px}
+.section-head h2{font:700 1.45rem/1.05 "Space Grotesk",sans-serif;letter-spacing:-.03em;margin:0}
+.section-head span{font-size:.78rem;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:19px;padding:18px;min-width:0;display:flex;flex-direction:column}
+.card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.icon{width:42px;height:42px;border-radius:13px;background:var(--lime);display:grid;place-items:center;font-size:22px}
+.tag{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800}
+.card h3{font:700 1.22rem/1.05 "Space Grotesk",sans-serif;letter-spacing:-.025em;margin:0 0 8px}
+.card p{font-size:.92rem;color:#435650;margin:0 0 12px}
+.fact{display:flex;gap:8px;align-items:center;padding:10px 11px;border-radius:12px;background:#f1f4e8;font-size:.84rem;font-weight:700;margin:auto 0 10px}
+.fact strong{font:700 1.25rem/1 "Space Grotesk",sans-serif;color:var(--green)}
+.card-footer{border-top:1px solid var(--line);padding-top:10px;margin-top:4px;font-size:.76rem;color:var(--muted);display:flex;justify-content:space-between;gap:8px}
+.card-footer a{font-weight:800;color:var(--green);text-decoration:none;white-space:nowrap}
+.card-footer a:hover{text-decoration:underline}
+.source-note{margin:26px 0 0;border-radius:16px;background:#e9eddf;padding:16px;font-size:.84rem;color:#485850}
+footer{background:var(--ink);color:#f7f5eb;padding:26px 0}
+footer .foot{display:flex;justify-content:space-between;gap:20px;align-items:center}
+footer p{margin:4px 0;color:#d2ded5;font-size:.83rem}
+footer a{color:var(--lime);font-weight:700}
+@media(max-width:720px){
+ .wrap{width:min(100% - 24px,600px)}
+ .brand{align-items:flex-start}.pill{display:none}
+ .hero{grid-template-columns:1fr}.hero-copy{padding:24px 22px 16px}
+ .hero-art{min-height:220px;grid-row:1}
+ .robot{font-size:76px;width:120px;height:126px}
+ .stat{padding:9px 12px}.stat strong{font-size:1.2rem}
+ .cards{grid-template-columns:1fr}
+ .card{padding:16px}
+ .card h3{font-size:1.28rem}
+ .edition{font-size:.77rem}
+ footer .foot{align-items:flex-start;flex-direction:column}
+}
+@media(prefers-reduced-motion:no-preference){.hero-art .robot{animation:bob 4s ease-in-out infinite}@keyframes bob{50%{transform:translateY(-6px)}}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><span>El Salvador · Tecnología y trabajo</span><span>Lectura breve, fuentes abiertas</span></div>
+  <header class="brand">
+    <div class="brand-lock"><div class="mark" aria-hidden="true">🤖</div><div>
+      <h1>IA, Robots y Empleo SV</h1>
+      <p class="tagline">Cómo la tecnología está cambiando el trabajo en El Salvador.</p>
+    </div></div>
+    <span class="pill">3 ediciones por semana</span>
+  </header>
+  <div class="edition"><span id="date">Cargando edición…</span><span id="edition-meta"></span></div>
+  <main id="main"><div class="loading">Preparando la edición…</div></main>
+</div>
+<footer><div class="wrap foot">
+  <div><strong>IA, Robots y Empleo SV</strong><p>Noticias claras sobre tecnología y trabajo en El Salvador.</p></div>
+  <div><p>Ediciones: lunes, jueves y sábado · 8:00 a. m. hora de El Salvador</p><a href="feed.xml">Seguir por RSS ↗</a></div>
+</div></footer>
+<script>
+const escapeHTML = value => String(value == null ? "" : value).replace(/[&<>"]/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[ch]));
+const safeLink = value => /^https?:\/\//i.test(value || "") ? value : "#";
+function renderCard(item, sectionName){
+  const fact = item.dato ? '<div class="fact"><strong>'+escapeHTML(item.dato)+'</strong><span>'+escapeHTML(item.dato_etiqueta || "")+'</span></div>' : "";
+  return '<article class="card"><div class="card-top"><span class="icon" aria-hidden="true">'+escapeHTML(item.icono || "✨")+'</span><span class="tag">'+escapeHTML(sectionName)+'</span></div><h3>'+escapeHTML(item.titular)+'</h3><p>'+escapeHTML(item.resumen)+'</p>'+fact+'<div class="card-footer"><span>'+escapeHTML(item.fuente)+'</span><a href="'+escapeHTML(safeLink(item.url))+'" target="_blank" rel="noopener noreferrer">Ver fuente ↗</a></div></article>';
+}
+function render(data){
+  document.title = "IA, Robots y Empleo SV — " + (data.fecha_texto || "Edición");
+  document.getElementById("date").textContent = data.fecha_texto || data.fecha || "";
+  document.getElementById("edition-meta").textContent = (data.minutos || 2) + " min · " + (data.cantidad_notas || 0) + " notas";
+  const cover = data.portada || {};
+  let html = '<section class="hero"><div class="hero-copy"><span class="eyebrow">'+escapeHTML(cover.etiqueta || "En portada")+'</span><h2>'+escapeHTML(cover.titular)+'</h2><p>'+escapeHTML(cover.resumen)+'</p><div class="why"><strong>¿Qué significa?</strong> '+escapeHTML(cover.para_ti || "")+'</div><a class="source-link" href="'+escapeHTML(safeLink(cover.url))+'" target="_blank" rel="noopener noreferrer">Fuente: '+escapeHTML(cover.fuente)+' ↗</a></div><div class="hero-art" aria-label="Ilustración de tecnología y trabajo"><span class="orbit"></span><span class="orbit two"></span><div class="stat one"><strong>'+escapeHTML(cover.visual_numero || "IA")+'</strong><small>'+escapeHTML(cover.visual_etiqueta || "en El Salvador")+'</small></div><div class="robot" aria-hidden="true">🤖</div><div class="stat two"><strong>'+escapeHTML(cover.visual_extra || "SV")+'</strong><small>'+escapeHTML(cover.visual_extra_etiqueta || "trabajo del futuro")+'</small></div></div></section>';
+  html += '<nav class="nav" aria-label="Temas">';
+  (data.secciones || []).forEach(section => { html += '<a href="#'+escapeHTML(section.id)+'">'+escapeHTML(section.icono || "•")+' '+escapeHTML(section.nombre)+'</a>'; });
+  html += '</nav>';
+  (data.secciones || []).forEach(section => {
+    html += '<section class="section" id="'+escapeHTML(section.id)+'"><div class="section-head"><h2>'+escapeHTML(section.icono || "")+' '+escapeHTML(section.nombre)+'</h2><span>'+((section.items || []).length)+' notas</span></div><div class="cards">';
+    (section.items || []).forEach(item => { html += renderCard(item, section.nombre); });
+    html += '</div></section>';
+  });
+  html += '<div class="source-note"><strong>Cómo se prepara:</strong> resúmenes editoriales con enlaces directos a cada fuente. Los datos y anuncios se presentan con fecha y contexto; las opiniones se atribuyen como tales.</div>';
+  document.getElementById("main").innerHTML = html;
+}
+const issue = new URLSearchParams(location.search).get("edicion");
+const path = issue && /^\d{4}-\d{2}-\d{2}$/.test(issue) ? "archive/"+issue+".json" : "news.json";
+fetch(path, {cache:"no-store"}).then(response => response.ok ? response : fetch("news.json", {cache:"no-store"})).then(response => {
+  if (!response.ok) throw new Error("No se pudo cargar la edición");
+  return response.json();
+}).then(render).catch(() => { document.getElementById("main").innerHTML = '<div class="error">No se pudo cargar esta edición. Intenta actualizar la página.</div>'; });
+</script>
+</body>
+</html>
