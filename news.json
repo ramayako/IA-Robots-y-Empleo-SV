@@ -1,0 +1,79 @@
+{
+  "fecha": "2026-11-24",
+  "fecha_texto": "Martes, 24 de noviembre de 2026",
+  "actualizado": "24 nov 2026",
+  "minutos": 2,
+  "cantidad_notas": 4,
+  "portada": {
+    "etiqueta": "Empleo y tecnología en SV",
+    "titular": "IA y robótica también necesitan talento humano",
+    "resumen": "El informe de demanda laboral del INCAF incluye perfiles técnicos de automatización y robótica, análisis de datos e inteligencia artificial, ciberseguridad y mantenimiento electrónico.",
+    "para_ti": "Hay varias rutas profesionales además de programar: electrónica, análisis de datos, mantenimiento y automatización también aparecen en el mapa de habilidades.",
+    "fuente": "INCAF · Estudio de demanda laboral",
+    "url": "https://www.incaf.gob.sv/wp-content/uploads/2026/09/Informe-Estudio-Demanda-Laboral-Sectores-Priorizados-VF.pdf",
+    "visual_numero": "4",
+    "visual_etiqueta": "familias de habilidades",
+    "visual_extra": "SV",
+    "visual_extra_etiqueta": "talento local"
+  },
+  "secciones": [
+    {
+      "id": "empleo",
+      "nombre": "Empleo",
+      "icono": "💼",
+      "items": [
+        {
+          "icono": "🦾",
+          "titular": "CNTXT AI publicó una vacante ligada a robótica",
+          "resumen": "LinkedIn muestra una vacante reciente de Robotics Data Collector en San Salvador. Revisa la descripción, requisitos y fecha de cierre directamente antes de postular.",
+          "dato": "San Salvador",
+          "dato_etiqueta": "Ubicación anunciada",
+          "fuente": "CNTXT AI · LinkedIn Jobs",
+          "url": "https://sv.linkedin.com/jobs/view/robotics-data-collector-el-salvador-at-cntxt-ai-4479634214"
+        }
+      ]
+    },
+    {
+      "id": "robotica",
+      "nombre": "Robótica",
+      "icono": "🤖",
+      "items": [
+        {
+          "icono": "🏭",
+          "titular": "La robótica ya se asoma en aulas y lugares de trabajo",
+          "resumen": "Un reportaje local describe el uso de robots en educación, atención al usuario y medicina, además de jóvenes que se preparan en laboratorios especializados.",
+          "dato": "3",
+          "dato_etiqueta": "ámbitos mencionados",
+          "fuente": "Canal 12 · El Salvador",
+          "url": "https://www.canal12.com.sv/noticia/educacion-e-implementacion-de-la-robotica-en-el-salvador/"
+        }
+      ]
+    },
+    {
+      "id": "habilidades",
+      "nombre": "Habilidades",
+      "icono": "🧠",
+      "items": [
+        {
+          "icono": "📊",
+          "titular": "¿Qué habilidades aparecen en la lista de demanda laboral?",
+          "resumen": "El INCAF enumera automatización y robótica, análisis de datos e IA, ciberseguridad y mantenimiento electrónico entre los perfiles técnicos más solicitados en sectores priorizados.",
+          "dato": "4 rutas",
+          "dato_etiqueta": "para explorar",
+          "fuente": "INCAF · Estudio de demanda laboral",
+          "url": "https://www.incaf.gob.sv/wp-content/uploads/2026/09/Informe-Estudio-Demanda-Laboral-Sectores-Priorizados-VF.pdf"
+        },
+        {
+          "icono": "🧰",
+          "titular": "La automatización también necesita mantenimiento",
+          "resumen": "La demanda tecnológica no se limita al desarrollo de software: electrónica, sistemas y mantenimiento de equipos pueden formar parte del trabajo alrededor de la robótica.",
+          "dato": "Más allá del código",
+          "dato_etiqueta": "mira los perfiles técnicos",
+          "fuente": "INCAF · Estudio de demanda laboral",
+          "url": "https://www.incaf.gob.sv/wp-content/uploads/2026/09/Informe-Estudio-Demanda-Laboral-Sectores-Priorizados-VF.pdf"
+        }
+      ]
+    }
+  ],
+  "nota_editorial": "Las vacantes pueden cerrar o cambiar. Verifica requisitos y fechas en el enlace original. Este resumen informa sobre tecnología, robótica y trabajo; no cubre política partidista."
+}
