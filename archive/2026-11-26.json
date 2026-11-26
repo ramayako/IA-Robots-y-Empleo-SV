@@ -1,0 +1,54 @@
+{
+  "fecha": "2026-11-26",
+  "fecha_texto": "Jueves, 26 de noviembre de 2026",
+  "actualizado": "26 nov 2026",
+  "minutos": 2,
+  "cantidad_notas": 3,
+  "portada": {
+    "etiqueta": "Empleo en El Salvador",
+    "titular": "Qué buscan las empresas salvadoreñas",
+    "resumen": "El INCAF presentó el 24 de noviembre su Encuesta de Demanda Laboral 2026–2027. Consultó a 965 empresas formales sobre sus necesidades de contratación para los próximos 12 meses y sobre los usos de IA que están implementando. La muestra no fue aleatoria.",
+    "para_ti": "Si vas a elegir un curso o buscar trabajo, usá el informe para identificar ocupaciones y habilidades. Después comparalas con vacantes reales de tu zona.",
+    "fuente": "INCAF · Encuesta de Demanda Laboral",
+    "url": "https://www.incaf.gob.sv/wp-content/uploads/2026/11/Informe-de-resultados-ENDEL-2026_VF.pdf",
+    "visual_numero": "965",
+    "visual_etiqueta": "empresas consultadas",
+    "visual_extra": "12 meses",
+    "visual_extra_etiqueta": "horizonte de consulta"
+  },
+  "secciones": [
+    {
+      "id": "robotica",
+      "nombre": "Robótica",
+      "icono": "🤖",
+      "items": [
+        {
+          "icono": "🏭",
+          "titular": "Robótica móvil para aprender en Santa Tecla",
+          "resumen": "El centro que ITCA-FEPADE inauguró el 22 de octubre tiene espacios de robótica móvil y manufactura inteligente. Su formación dual combina prácticas en aulas y laboratorios con experiencia en empresas. Si estás comparando carreras técnicas, preguntá qué equipos vas a usar y cómo se asignan las prácticas.",
+          "dato": "Santa Tecla",
+          "dato_etiqueta": "campus del ITCA-FEPADE",
+          "fuente": "ITCA-FEPADE · Centro de Capacitación en Innovación Industrial",
+          "url": "https://www.itca.edu.sv/2026/11/04/itca-fepade-inauguro-moderno-centro-capacitacion-innovacion-industrial-equipado-tecnologia-ultima-generacion-fortalecer-la-formacion-profesionales-industria-4-0-mod/"
+        }
+      ]
+    },
+    {
+      "id": "habilidades",
+      "nombre": "Habilidades",
+      "icono": "🧠",
+      "items": [
+        {
+          "icono": "💻",
+          "titular": "La primera ronda de la Olimpiada de IA cierra el 29",
+          "resumen": "La primera evaluación en línea de la Olimpiada Salvadoreña de Inteligencia Artificial está prevista del 15 al 29 de noviembre. Las inscripciones ya cerraron. Si en tu familia hay alguien interesado en competir en el futuro, la convocatoria enlaza al temario para empezar a practicar.",
+          "dato": "29 nov",
+          "dato_etiqueta": "fin previsto de la primera ronda",
+          "fuente": "OSIA · Convocatoria oficial",
+          "url": "https://osia.com.sv/convocatoria/"
+        }
+      ]
+    }
+  ],
+  "nota_editorial": "Las expectativas de contratación de una encuesta no equivalen a vacantes abiertas."
+}

@@ -1,38 +1,22 @@
 {
-  "fecha": "2026-11-24",
-  "fecha_texto": "Martes, 24 de noviembre de 2026",
-  "actualizado": "24 nov 2026",
+  "fecha": "2026-11-26",
+  "fecha_texto": "Jueves, 26 de noviembre de 2026",
+  "actualizado": "26 nov 2026",
   "minutos": 2,
-  "cantidad_notas": 4,
+  "cantidad_notas": 3,
   "portada": {
-    "etiqueta": "Empleo y tecnología en SV",
-    "titular": "IA y robótica también necesitan talento humano",
-    "resumen": "El informe de demanda laboral del INCAF incluye perfiles técnicos de automatización y robótica, análisis de datos e inteligencia artificial, ciberseguridad y mantenimiento electrónico.",
-    "para_ti": "Hay varias rutas profesionales además de programar: electrónica, análisis de datos, mantenimiento y automatización también aparecen en el mapa de habilidades.",
-    "fuente": "INCAF · Estudio de demanda laboral",
-    "url": "https://www.incaf.gob.sv/wp-content/uploads/2026/09/Informe-Estudio-Demanda-Laboral-Sectores-Priorizados-VF.pdf",
-    "visual_numero": "4",
-    "visual_etiqueta": "familias de habilidades",
-    "visual_extra": "SV",
-    "visual_extra_etiqueta": "talento local"
+    "etiqueta": "Empleo en El Salvador",
+    "titular": "Qué buscan las empresas salvadoreñas",
+    "resumen": "El INCAF presentó el 24 de noviembre su Encuesta de Demanda Laboral 2026–2027. Consultó a 965 empresas formales sobre sus necesidades de contratación para los próximos 12 meses y sobre los usos de IA que están implementando. La muestra no fue aleatoria.",
+    "para_ti": "Si vas a elegir un curso o buscar trabajo, usá el informe para identificar ocupaciones y habilidades. Después comparalas con vacantes reales de tu zona.",
+    "fuente": "INCAF · Encuesta de Demanda Laboral",
+    "url": "https://www.incaf.gob.sv/wp-content/uploads/2026/11/Informe-de-resultados-ENDEL-2026_VF.pdf",
+    "visual_numero": "965",
+    "visual_etiqueta": "empresas consultadas",
+    "visual_extra": "12 meses",
+    "visual_extra_etiqueta": "horizonte de consulta"
   },
   "secciones": [
-    {
-      "id": "empleo",
-      "nombre": "Empleo",
-      "icono": "💼",
-      "items": [
-        {
-          "icono": "🦾",
-          "titular": "CNTXT AI publicó una vacante ligada a robótica",
-          "resumen": "LinkedIn muestra una vacante reciente de Robotics Data Collector en San Salvador. Revisa la descripción, requisitos y fecha de cierre directamente antes de postular.",
-          "dato": "San Salvador",
-          "dato_etiqueta": "Ubicación anunciada",
-          "fuente": "CNTXT AI · LinkedIn Jobs",
-          "url": "https://sv.linkedin.com/jobs/view/robotics-data-collector-el-salvador-at-cntxt-ai-4479634214"
-        }
-      ]
-    },
     {
       "id": "robotica",
       "nombre": "Robótica",
@@ -40,12 +24,12 @@
       "items": [
         {
           "icono": "🏭",
-          "titular": "La robótica ya se asoma en aulas y lugares de trabajo",
-          "resumen": "Un reportaje local describe el uso de robots en educación, atención al usuario y medicina, además de jóvenes que se preparan en laboratorios especializados.",
-          "dato": "3",
-          "dato_etiqueta": "ámbitos mencionados",
-          "fuente": "Canal 12 · El Salvador",
-          "url": "https://www.canal12.com.sv/noticia/educacion-e-implementacion-de-la-robotica-en-el-salvador/"
+          "titular": "Robótica móvil para aprender en Santa Tecla",
+          "resumen": "El centro que ITCA-FEPADE inauguró el 22 de octubre tiene espacios de robótica móvil y manufactura inteligente. Su formación dual combina prácticas en aulas y laboratorios con experiencia en empresas. Si estás comparando carreras técnicas, preguntá qué equipos vas a usar y cómo se asignan las prácticas.",
+          "dato": "Santa Tecla",
+          "dato_etiqueta": "campus del ITCA-FEPADE",
+          "fuente": "ITCA-FEPADE · Centro de Capacitación en Innovación Industrial",
+          "url": "https://www.itca.edu.sv/2026/11/04/itca-fepade-inauguro-moderno-centro-capacitacion-innovacion-industrial-equipado-tecnologia-ultima-generacion-fortalecer-la-formacion-profesionales-industria-4-0-mod/"
         }
       ]
     },
@@ -55,25 +39,16 @@
       "icono": "🧠",
       "items": [
         {
-          "icono": "📊",
-          "titular": "¿Qué habilidades aparecen en la lista de demanda laboral?",
-          "resumen": "El INCAF enumera automatización y robótica, análisis de datos e IA, ciberseguridad y mantenimiento electrónico entre los perfiles técnicos más solicitados en sectores priorizados.",
-          "dato": "4 rutas",
-          "dato_etiqueta": "para explorar",
-          "fuente": "INCAF · Estudio de demanda laboral",
-          "url": "https://www.incaf.gob.sv/wp-content/uploads/2026/09/Informe-Estudio-Demanda-Laboral-Sectores-Priorizados-VF.pdf"
-        },
-        {
-          "icono": "🧰",
-          "titular": "La automatización también necesita mantenimiento",
-          "resumen": "La demanda tecnológica no se limita al desarrollo de software: electrónica, sistemas y mantenimiento de equipos pueden formar parte del trabajo alrededor de la robótica.",
-          "dato": "Más allá del código",
-          "dato_etiqueta": "mira los perfiles técnicos",
-          "fuente": "INCAF · Estudio de demanda laboral",
-          "url": "https://www.incaf.gob.sv/wp-content/uploads/2026/09/Informe-Estudio-Demanda-Laboral-Sectores-Priorizados-VF.pdf"
+          "icono": "💻",
+          "titular": "La primera ronda de la Olimpiada de IA cierra el 29",
+          "resumen": "La primera evaluación en línea de la Olimpiada Salvadoreña de Inteligencia Artificial está prevista del 15 al 29 de noviembre. Las inscripciones ya cerraron. Si en tu familia hay alguien interesado en competir en el futuro, la convocatoria enlaza al temario para empezar a practicar.",
+          "dato": "29 nov",
+          "dato_etiqueta": "fin previsto de la primera ronda",
+          "fuente": "OSIA · Convocatoria oficial",
+          "url": "https://osia.com.sv/convocatoria/"
         }
       ]
     }
   ],
-  "nota_editorial": "Las vacantes pueden cerrar o cambiar. Verifica requisitos y fechas en el enlace original. Este resumen informa sobre tecnología, robótica y trabajo; no cubre política partidista."
+  "nota_editorial": "Las expectativas de contratación de una encuesta no equivalen a vacantes abiertas."
 }

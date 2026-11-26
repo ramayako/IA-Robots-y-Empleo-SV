@@ -6,7 +6,14 @@
     <description>Noticias breves sobre inteligencia artificial, robótica y empleo en El Salvador.</description>
     <language>es-SV</language>
     <atom:link href="https://ramayako.github.io/IA-Robots-y-Empleo-SV/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 24 Nov 2026 14:54:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 14:00:00 GMT</lastBuildDate>
+    <item>
+      <title>26 de noviembre de 2026 — Qué buscan las empresas salvadoreñas</title>
+      <link>https://ramayako.github.io/IA-Robots-y-Empleo-SV/?edicion=2026-11-26</link>
+      <guid isPermaLink="false">ia-robots-empleo-sv-2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 14:00:00 GMT</pubDate>
+      <description>El INCAF presentó el 24 de noviembre su Encuesta de Demanda Laboral 2026–2027. Consultó a 965 empresas formales sobre sus necesidades de contratación para los próximos 12 meses y sobre los usos de IA que están implementando. La muestra no fue aleatoria.</description>
+    </item>
     <item>
       <title>24 de noviembre de 2026 — IA y robótica también necesitan talento humano</title>
       <link>https://ramayako.github.io/IA-Robots-y-Empleo-SV/?edicion=2026-11-24</link>
