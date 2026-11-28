@@ -1,20 +1,20 @@
 {
-  "fecha": "2026-11-26",
-  "fecha_texto": "Jueves, 26 de noviembre de 2026",
-  "actualizado": "26 nov 2026",
+  "fecha": "2026-11-28",
+  "fecha_texto": "Sábado, 28 de noviembre de 2026",
+  "actualizado": "28 nov 2026",
   "minutos": 2,
   "cantidad_notas": 3,
   "portada": {
-    "etiqueta": "Empleo en El Salvador",
-    "titular": "Qué buscan las empresas salvadoreñas",
-    "resumen": "El INCAF presentó el 24 de noviembre su Encuesta de Demanda Laboral 2026–2027. Consultó a 965 empresas formales sobre sus necesidades de contratación para los próximos 12 meses y sobre los usos de IA que están implementando. La muestra no fue aleatoria.",
-    "para_ti": "Si vas a elegir un curso o buscar trabajo, usá el informe para identificar ocupaciones y habilidades. Después comparalas con vacantes reales de tu zona.",
-    "fuente": "INCAF · Encuesta de Demanda Laboral",
-    "url": "https://www.incaf.gob.sv/wp-content/uploads/2026/11/Informe-de-resultados-ENDEL-2026_VF.pdf",
-    "visual_numero": "965",
-    "visual_etiqueta": "empresas consultadas",
-    "visual_extra": "12 meses",
-    "visual_extra_etiqueta": "horizonte de consulta"
+    "etiqueta": "Capacitación en El Salvador",
+    "titular": "Talent Up anuncia formación gratuita en IA",
+    "resumen": "El lanzamiento del 26 de noviembre incluyó cuatro rutas de formación gratuita: inteligencia artificial, análisis de datos, nube y ciberseguridad. El programa busca llegar a hasta 10,000 salvadoreños. Esa cifra es la meta anunciada.",
+    "para_ti": "Si buscás tu primer empleo o querés actualizarte, elegí una ruta según la tarea que querés aprender. La nota de lanzamiento enlaza al portal del programa para consultar requisitos y disponibilidad.",
+    "fuente": "Dinero.com.sv · Lanzamiento de Talent Up",
+    "url": "https://dinero.com.sv/tecnologia/ministerio-de-economia-impulsa-formacion-tecnologica-para-responder-a-la-demanda-del-mercado-laboral/",
+    "visual_numero": "4",
+    "visual_etiqueta": "rutas de formación",
+    "visual_extra": "10 mil",
+    "visual_extra_etiqueta": "meta de participantes"
   },
   "secciones": [
     {
@@ -23,13 +23,13 @@
       "icono": "🤖",
       "items": [
         {
-          "icono": "🏭",
-          "titular": "Robótica móvil para aprender en Santa Tecla",
-          "resumen": "El centro que ITCA-FEPADE inauguró el 22 de octubre tiene espacios de robótica móvil y manufactura inteligente. Su formación dual combina prácticas en aulas y laboratorios con experiencia en empresas. Si estás comparando carreras técnicas, preguntá qué equipos vas a usar y cómo se asignan las prácticas.",
-          "dato": "Santa Tecla",
-          "dato_etiqueta": "campus del ITCA-FEPADE",
-          "fuente": "ITCA-FEPADE · Centro de Capacitación en Innovación Industrial",
-          "url": "https://www.itca.edu.sv/2026/11/04/itca-fepade-inauguro-moderno-centro-capacitacion-innovacion-industrial-equipado-tecnologia-ultima-generacion-fortalecer-la-formacion-profesionales-industria-4-0-mod/"
+          "icono": "🛠️",
+          "titular": "De un circuito al robot que sigue una línea",
+          "resumen": "La Universidad Don Bosco publicó el 6 de noviembre los resultados de Tech Race, donde estudiantes de ingeniería probaron prototipos en retos como laberintos y seguimiento de líneas. Si estás armando un portafolio, documentá cómo probaste tu prototipo y qué cambiaste después de cada falla.",
+          "dato": "6",
+          "dato_etiqueta": "categorías de competencia",
+          "fuente": "Universidad Don Bosco · Tech Race",
+          "url": "https://www.udb.edu.sv/udb/noticia/la-escuela-de-electronica-de-la-udb-celebra-una-nueva-edicion-de-la-competencia--tech-race--"
         }
       ]
     },
@@ -39,16 +39,16 @@
       "icono": "🧠",
       "items": [
         {
-          "icono": "💻",
-          "titular": "La primera ronda de la Olimpiada de IA cierra el 29",
-          "resumen": "La primera evaluación en línea de la Olimpiada Salvadoreña de Inteligencia Artificial está prevista del 15 al 29 de noviembre. Las inscripciones ya cerraron. Si en tu familia hay alguien interesado en competir en el futuro, la convocatoria enlaza al temario para empezar a practicar.",
-          "dato": "29 nov",
-          "dato_etiqueta": "fin previsto de la primera ronda",
-          "fuente": "OSIA · Convocatoria oficial",
-          "url": "https://osia.com.sv/convocatoria/"
+          "icono": "💡",
+          "titular": "La UCA formará a quienes asesoran a emprendedores",
+          "resumen": "El BCIE informó el 11 de noviembre que la UCA implementará un diplomado de IA para docentes y personal que orienta a emprendedores. Para una pequeña empresa, el valor previsto es contar con mejor asesoría para validar ideas de negocio. El diplomado está dirigido a formadores.",
+          "dato": "IA aplicada",
+          "dato_etiqueta": "formación para asesores",
+          "fuente": "BCIE · Iniciativa DINAMICA II",
+          "url": "https://www.bcie.org/noticias/formacion-especializada-en-emprendimiento-e-innovacion-con-inteligencia-artificial-en-el-salvador-una-apuesta-del-bcie-la-union-europea-y-kfw"
         }
       ]
     }
   ],
-  "nota_editorial": "Las expectativas de contratación de una encuesta no equivalen a vacantes abiertas."
+  "nota_editorial": "Consultá los requisitos y fechas en las fuentes originales antes de postularte a un programa."
 }
